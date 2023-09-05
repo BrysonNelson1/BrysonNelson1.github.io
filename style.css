@@ -11,7 +11,7 @@ font-family: arial;
 
 /* navigation menu */
 nav {
-    background: rgb(255, 255, 255);
+    background: rgb(252, 59, 59);
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(7, 6, 6);
     flex: 1;
     margin: 0;
 }
@@ -37,12 +37,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #060505;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(241, 185, 32);
     display: flex;
 }
 
@@ -62,7 +62,7 @@ content {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(243, 50, 50) ridge;
     padding: 8px;
 }
 
