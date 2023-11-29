@@ -48,6 +48,7 @@ createPlatform((10,4800,1000,10))
 createPlatform(100,520,355,10)
 createPlatform(400,640,200,10)
 createPlatform(400,400, 355, 10)
+createPlatform(700,320,355, 10)
 
     
     // TODO 2
@@ -57,6 +58,7 @@ createPlatform(400,400, 355, 10)
     // example usage: createCollectable(type, x, y, gravity, bounce)
 createCollectable("diamond", 450, 600, 0, 0)
 createCollectable("steve", 450, 350, 0, 0)
+createCollectable("grace", 700, 270, 0, 0)
 
 
     // TODO 3
@@ -66,6 +68,7 @@ createCollectable("steve", 450, 350, 0, 0)
     // example usage: createCannon(side, position, delay, width, height)
 createCannon("right", 660, 2000, 10, 10)
 createCannon("top", 600, 2250, 10, 10)
+createCannon("top", 890, 2000, 10, 10)
 
 
     /////////////////////////////////////////////////
