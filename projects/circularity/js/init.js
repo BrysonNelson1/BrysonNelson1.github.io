@@ -29,7 +29,11 @@ var circles = [];
         circles.push(circle)
 
         // TODO 3 / 7 : Call the drawCircle() function 
-
+        drawCirle(1)
+        drawCirle(2)
+        drawCirle(3)
+        drawCirle(4)
+        drawCirle(5)
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -42,10 +46,18 @@ var circles = [];
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
+            physikz.updatePosition(1)
+            physikz.updatePosition(2)
+            physikz.updatePosition(3)
+            physikz.updatePosition(4)
+            physikz.updatePosition(5)
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+            game.checkCirclePosition(1)
+            game.checkCirclePosition(2)
+            game.checkCirclePosition(3)
+            game.checkCirclePosition(4)
+            game.checkCirclePosition(5)
 
             // TODO 9 : Iterate over the array
            
